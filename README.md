@@ -8,5 +8,5 @@ Any one can easily make twitter api using:https://developer.twitter.com/en/apps
 ### consumer_secret = ''
 ### access_token = ''
 ### access_token_secret = ''
-#### In this model I am using tweepy as it is used to access twitter api https://www.tweepy.org/
+#### In this model I am using tweepy as it is used to access twitter app https://developer.twitter.com/en/apps
 #### For sentimental analysis I am using vader.
