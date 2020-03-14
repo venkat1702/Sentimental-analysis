@@ -10,7 +10,7 @@ access_token_secret = ''
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
-tweets = api.search('Artificial Intelligence', count=200)
+tweets = api.search('topic which you want to search', count=200)
 data = pd.DataFrame(data=[tweet.text for tweet in tweets], columns=['Tweets'])
 print(data.head(10))
 print(tweets[0].created_at)
