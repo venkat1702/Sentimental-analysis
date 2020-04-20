@@ -4,9 +4,8 @@ Sentiment analysis - opinion mining, text analysis, emotion AI - determines the 
 Any one can easily make twitter api using:https://developer.twitter.com/en/apps
 ## Make sure that you note the following credentials as they are importent for further proceedings.
 ## Required credentials
-### consumer_key = ''
-### consumer_secret = ''
-### access_token = ''
-### access_token_secret = ''
-#### In this model I am using tweepy as it is used to access twitter api
-#### For sentimental analysis I am using vader.
+- consumer_key = ''
+- consumer_secret = ''
+- access_token = ''
+- access_token_secret = ''
+### END
